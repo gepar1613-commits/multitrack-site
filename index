@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Baixe multitracks gospel prontos para Reaper e App Playback. Faixas organizadas, testadas em culto real. Acesso imediato na sua área de membro." />
+    <title>Multitrack Gospel — Baixe e Toque no Próximo Culto | VS Gospel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- ════════════════════════════════════
+       FIXED URGENCY BAR (TOPO)
+  ════════════════════════════════════ -->
+    <div class="urgency-bar" id="urgency-bar">
+        <span class="urgency-flame">🔥</span>
+        <span>Preço de lançamento — disponível apenas por:</span>
+        <div class="countdown" id="countdown">
+            <div class="count-block"><span id="c-hours">00</span><small>horas</small></div>
+            <div class="count-sep">:</div>
+            <div class="count-block"><span id="c-mins">00</span><small>min</small></div>
+            <div class="count-sep">:</div>
+            <div class="count-block"><span id="c-secs">00</span><small>seg</small></div>
+        </div>
+    </div>
+
+    <!-- ════════════════════════════════════
+       STICKY NAV
+  ════════════════════════════════════ -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-inner">
+            <div class="nav-logo">
+                <span class="logo-icon">🎵</span>
+                <span class="logo-text">VS<span class="logo-accent"> Gospel</span></span>
+            </div>
+            <a href="https://pay.hotmart.com/N106284520R?_gl=1*c7dmdi*_gcl_au*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*FPAU*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*_ga*MTU3ODQ2NjcwNS4xNzc5NDA0NDA5*_ga_GQH2V1F11Q*czE3ODE0ODIwNzEkbzIkZzEkdDE3ODE0ODI0MzQkajYwJGwwJGgxMzQ0MDkwNDE.&bid=1781482440546" class="btn btn-nav" id="nav-cta">Baixar agora →</a>
+        </div>
+    </nav>
+
+    <!-- ════════════════════════════════════
+       HERO
+  ════════════════════════════════════ -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content reveal" style="text-align:center;">
+            <div class="hero-badge">🎚️ Multitrack Pronto • Download Imediato</div>
+            <h1 class="hero-title">
+                O multitrack que sua banda vai tocar
+                <span class="gradient-text">no próximo culto</span> —
+                <span class="hero-highlight">pronto, organizado e testado.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Faixas separadas, formato certo, sem perder tempo ajustando arquivo <strong>na hora do ensaio.</strong>
+            </p>
+            <p class="hero-desc" style="margin-left:auto;margin-right:auto;">
+                Baixe o multitrack já organizado para <strong>Reaper</strong> e <strong>App Playback</strong> e
+                leve direto para o ensaio com a banda — sem travamento, sem arquivo bagunçado, sem improviso.
+            </p>
+            <div class="hero-ctas" style="justify-content:center;">
+                <a href="https://pay.hotmart.com/N106284520R?_gl=1*c7dmdi*_gcl_au*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*FPAU*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*_ga*MTU3ODQ2NjcwNS4xNzc5NDA0NDA5*_ga_GQH2V1F11Q*czE3ODE0ODIwNzEkbzIkZzEkdDE3ODE0ODI0MzQkajYwJGwwJGgxMzQ0MDkwNDE.&bid=1781482440546" class="btn btn-primary" id="hero-cta">
+                    <span>Quero esse Multitrack por R$17</span>
+                    <svg width="20" height="20" fill="none" viewBox="0 0 24 24">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <a href="#oferta" class="btn btn-ghost">Ver o que vem no pacote ↓</a>
+            </div>
+            <div class="hero-social-proof" style="justify-content:center;">
+                <div class="proof-item">✅ Pronto para Reaper</div>
+                <div class="proof-item">✅ Pronto para App Playback</div>
+                <div class="proof-item">✅ Testado em culto real</div>
+            </div>
+        </div>
+        <div class="hero-visual reveal-right">
+            <div class="mockup-glow"></div>
+            <img src="course-mockup.png" alt="Multitrack aberto no Reaper e tocando no App Playback" class="hero-mockup" />
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       PROBLEMA
+  ════════════════════════════════════ -->
+    <section class="section problem-section" id="problema">
+        <div class="container">
+            <div class="section-label reveal">O Problema</div>
+            <h2 class="section-title reveal">
+                Sua banda quer tocar com excelência no domingo.<br>
+                <span class="text-muted">Mas o que costuma travar tudo na prática?</span>
+            </h2>
+            <div class="pain-grid reveal">
+                <div class="pain-card">
+                    <div class="pain-icon">📁</div>
+                    <h3>Arquivo bagunçado</h3>
+                    <p>Faixas sem nome, sem padrão, em formato errado — e você perde o ensaio inteiro só ajustando isso.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">⏱️</div>
+                    <h3>Tempo curto até o culto</h3>
+                    <p>A semana corre, a escala chega de última hora e não dá tempo de montar o multitrack do zero.</p>
+                </div>
+                <div class="pain-card">
+                    <div class="pain-icon">💥</div>
+                    <h3>Risco de travar no altar</h3>
+                    <p>Arquivo no formato errado para o Reaper ou para o App Playback é receita pra susto durante o culto.</p>
+                </div>
+            </div>
+            <div class="problem-revelation reveal">
+                <p class="revelation-text">
+                    Você não precisa <strong>montar o multitrack do zero.</strong><br>
+                    Você precisa de um <strong>arquivo pronto, no formato certo.</strong>
+                </p>
+                <p class="revelation-sub">Baixe, importe e toque — o trabalho pesado de organização já foi feito.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       SOLUÇÃO
+  ════════════════════════════════════ -->
+    <section class="section solution-section" id="metodo">
+        <div class="container">
+            <div class="solution-card reveal">
+                <div class="solution-badge">A Solução</div>
+                <h2 class="solution-title">
+                    Apresento o:<br>
+                    <span class="gradient-text">Multitrack Gospel de Excelência</span>
+                </h2>
+                <p class="solution-desc">
+                    Um multitrack completo, separado por instrumento, já estruturado e nomeado — pronto para você
+                    importar no Reaper ou abrir direto no App Playback e tocar no ensaio ou no culto.
+                </p>
+                <div class="solution-pillars">
+                    <div class="pillar">
+                        <span class="pillar-num">01</span>
+                        <span class="pillar-text">Download imediato</span>
+                    </div>
+                    <div class="pillar">
+                        <span class="pillar-num">02</span>
+                        <span class="pillar-text">Testado na prática</span>
+                    </div>
+                    <div class="pillar">
+                        <span class="pillar-num">03</span>
+                        <span class="pillar-text">Pronto para Reaper e App Playback</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       O QUE VEM NO PACOTE
+  ════════════════════════════════════ -->
+    <section class="section learn-section" id="conteudo">
+        <div class="container">
+            <div class="section-label reveal">O que você recebe</div>
+            <h2 class="section-title reveal">
+                Tudo organizado para você <span class="gradient-text">só importar e tocar</span>, sem perder tempo:
+            </h2>
+            <div class="learn-grid reveal">
+                <div class="learn-card">
+                    <div class="learn-icon">🎚️</div>
+                    <h3>Faixas separadas por instrumento</h3>
+                    <p>Click, guia, base, backing vocal e instrumentos organizados em faixas individuais.</p>
+                </div>
+                <div class="learn-card">
+                    <div class="learn-icon">🗂️</div>
+                    <h3>Estrutura pronta para o Reaper</h3>
+                    <p>Importe direto, sem precisar renomear ou reorganizar nada — já vem no padrão certo.</p>
+                </div>
+                <div class="learn-card">
+                    <div class="learn-icon">📱</div>
+                    <h3>Compatível com App Playback</h3>
+                    <p>Arquivo no formato certo para rodar direto do celular ou tablet no domingo.</p>
+                </div>
+                <div class="learn-card">
+                    <div class="learn-icon">🎧</div>
+                    <h3>Clique e guia inclusos</h3>
+                    <p>A banda toca junto, no tempo certo, com referência clara — sem surpresas no altar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       COMO FUNCIONA / BÔNUS
+  ════════════════════════════════════ -->
+    <section class="section bonus-section" id="bonus">
+        <div class="container">
+            <div class="section-label reveal">Como funciona</div>
+            <h2 class="section-title reveal">
+                Do clique de compra ao <span class="gradient-text">arquivo na sua mão</span> em poucos minutos
+            </h2>
+            <div class="bonus-grid reveal">
+                <div class="bonus-card bonus-1">
+                    <div class="bonus-badge-num">PASSO 1</div>
+                    <div class="bonus-icon">💳</div>
+                    <h3>Você faz a compra</h3>
+                    <p>Pagamento único de R$17, processado de forma segura pela Hotmart.</p>
+                </div>
+                <div class="bonus-card bonus-2">
+                    <div class="bonus-badge-num">PASSO 2</div>
+                    <div class="bonus-icon">🔑</div>
+                    <h3>Acesse sua área de membro</h3>
+                    <p>Você recebe os dados de acesso e entra na sua área para fazer o download do multitrack.</p>
+                </div>
+                <div class="bonus-card bonus-3">
+                    <div class="bonus-badge-num">PASSO 3</div>
+                    <div class="bonus-icon">🎼</div>
+                    <h3>Importe e toque</h3>
+                    <p>Abra no Reaper ou no App Playback e leve direto para o ensaio ou para o culto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       DEPOIMENTOS
+  ════════════════════════════════════ -->
+    <section class="section testimonials-section" id="depoimentos">
+        <div class="container">
+            <div class="section-label reveal">Resultados Reais</div>
+            <h2 class="section-title reveal">O que estão dizendo sobre os multitracks</h2>
+            <div class="testimonials-grid reveal">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Baixei na sexta, abri no Reaper e já estava tudo pronto. Chegamos no ensaio só pra ajustar o tom. Economizou muito tempo."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div>
+                            <strong>Marcos S.</strong>
+                            <span>Ministro de louvor, SP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card featured-test">
+                    <div class="stars">★★★★★</div>
+                    <p>"As faixas já vêm organizadas e nomeadas certinho. Só importei no App Playback e rodou liso, sem nenhum susto no culto."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div>
+                            <strong>Ana Clara R.</strong>
+                            <span>Tecladista, MG</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Por R$17 valeu muito a pena. Economizei horas de trabalho que gastaria organizando o multitrack manualmente."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👤</div>
+                        <div>
+                            <strong>Roberto M.</strong>
+                            <span>Pastor e músico, RJ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       COUNTDOWN + OFERTA
+  ════════════════════════════════════ -->
+    <section class="section offer-section" id="oferta">
+        <div class="container">
+
+            <div class="offer-card reveal">
+                <div class="offer-label">Acesso Imediato</div>
+                <h2 class="offer-title">Multitrack Gospel de Excelência</h2>
+                <div class="offer-includes">
+                    <div class="offer-item">✅ Multitrack completo, separado por instrumento</div>
+                    <div class="offer-item">✅ Estrutura pronta para Reaper</div>
+                    <div class="offer-item">✅ Formato compatível com App Playback</div>
+                    <div class="offer-item">✅ Clique e guia inclusos</div>
+                    <div class="offer-item">✅ Acesso na sua área de membro</div>
+                    <div class="offer-item">✅ Download liberado na hora</div>
+                </div>
+                <div class="offer-price-block">
+                    <div class="offer-from">De <s>R$ 47</s></div>
+                    <div class="offer-price">
+                        <span class="price-label">Lançamento</span>
+                        <span class="price-main">R$<span class="price-cents">17</span></span>
+                    </div>
+                    <div class="offer-or">pagamento único</div>
+                </div>
+                <a href="https://pay.hotmart.com/N106284520R?_gl=1*c7dmdi*_gcl_au*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*FPAU*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*_ga*MTU3ODQ2NjcwNS4xNzc5NDA0NDA5*_ga_GQH2V1F11Q*czE3ODE0ODIwNzEkbzIkZzEkdDE3ODE0ODI0MzQkajYwJGwwJGgxMzQ0MDkwNDE.&bid=1781482440546" class="btn btn-primary btn-offer" id="main-cta">
+                    <span>Quero esse Multitrack Agora 🚀</span>
+                </a>
+                <div class="guarantee-block">
+                    <div class="guarantee-icon">🛡️</div>
+                    <div>
+                        <strong>Garantia de 7 dias</strong>
+                        <p>Se o arquivo não atender o que você precisa, devolvemos 100% do seu dinheiro —
+                            sem perguntas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       FAQ
+  ════════════════════════════════════ -->
+    <section class="section faq-section" id="faq">
+        <div class="container faq-container">
+            <div class="section-label reveal">Dúvidas Frequentes</div>
+            <h2 class="section-title reveal">Ainda está com dúvidas?</h2>
+            <div class="faq-list reveal">
+
+                <div class="faq-item" id="faq-1">
+                    <button class="faq-question" onclick="toggleFaq('faq-1')">
+                        <span>Como recebo o multitrack após a compra?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Assim que o pagamento é confirmado, você recebe o acesso para entrar na sua área de membro
+                            e fazer o download direto.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-2">
+                    <button class="faq-question" onclick="toggleFaq('faq-2')">
+                        <span>Funciona no Windows e no Mac?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! O arquivo é compatível com Reaper em Windows e Mac, e com o App Playback em
+                            iOS e Android.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-3">
+                    <button class="faq-question" onclick="toggleFaq('faq-3')">
+                        <span>Preciso saber tocar multitrack para usar?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não. O arquivo já vem organizado e pronto. Se quiser aprender a rodar multitrack no
+                            culto do zero, temos um curso completo — confira em
+                            <a href="https://excelenciadigital.shop/" target="_blank">excelenciadigital.shop</a>.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-4">
+                    <button class="faq-question" onclick="toggleFaq('faq-4')">
+                        <span>Serve para igrejas pequenas?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Com certeza! O multitrack funciona para igrejas de qualquer tamanho — desde uma célula
+                            até grandes congregações.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" id="faq-5">
+                    <button class="faq-question" onclick="toggleFaq('faq-5')">
+                        <span>O preço de R$17 é fixo?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Esse é um valor promocional de lançamento, por tempo limitado. O preço pode voltar ao
+                            normal sem aviso.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       FINAL CTA
+  ════════════════════════════════════ -->
+    <section class="section final-cta-section">
+        <div class="container">
+            <div class="final-cta-card reveal">
+                <h2 class="final-cta-title">
+                    Sua banda <span class="gradient-text">merece chegar</span> pronta no culto.
+                </h2>
+                <p class="final-cta-desc">
+                    Não deixe mais um ensaio passar perdendo tempo organizando arquivo. Baixe o multitrack pronto
+                    e leve direto para a banda.
+                </p>
+                <a href="https://pay.hotmart.com/N106284520R?_gl=1*c7dmdi*_gcl_au*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*FPAU*Mjg0MzUxOTI3LjE3Nzk0MDQ0MDk.*_ga*MTU3ODQ2NjcwNS4xNzc5NDA0NDA5*_ga_GQH2V1F11Q*czE3ODE0ODIwNzEkbzIkZzEkdDE3ODE0ODI0MzQkajYwJGwwJGgxMzQ0MDkwNDE.&bid=1781482440546" class="btn btn-primary btn-xl" id="final-cta">
+                    <span>Baixar Multitrack por R$17 →</span>
+                </a>
+                <div class="final-trust">
+                    <span>🔒 Compra segura</span>
+                    <span>•</span>
+                    <span>🛡️ Garantia de 7 dias</span>
+                    <span>•</span>
+                    <span>⚡ Acesso imediato</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════ -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">
+                <span class="logo-icon">🎵</span>
+                <span class="logo-text">VS Gospel — <span class="logo-accent">Multitrack de Excelência</span></span>
+            </div>
+            <p class="footer-copy">© 2026 Victor Avelino. Todos os direitos reservados.</p>
+            <div class="footer-social">
+                <a href="https://instagram.com/excelencia_digital_vs" target="_blank" rel="noopener"
+                    class="social-link">📸 @excelencia_digital_vs</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
